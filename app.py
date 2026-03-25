@@ -518,7 +518,7 @@ async def main():
         finally:
             input_task.cancel()
 
-if __name__ == "__main__":
+def run_afk():
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
